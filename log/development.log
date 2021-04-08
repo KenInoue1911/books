@@ -487,3 +487,3034 @@ ActionController::ParameterMissing (param is missing or the value is empty: book
   
 app/controllers/books_controller.rb:23:in `book_params'
 app/controllers/books_controller.rb:16:in `create'
+Started GET "/" for 118.87.177.107 at 2021-04-08 07:31:47 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 255ms (Views: 249.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 07:31:48 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 07:31:51 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 07:31:56 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UAcdi2OdsqrVT-azzEhzopcMN4VdIU631BGWGq7xeA1IMQVGd8ccVGhUM-oBxgt6GglH9I5lTtJVU2SAoWvmrw", "title"=>"fsdf", "category"=>"fsdfsdf", "body"=>"sfsfsdf", "commit"=>"投稿"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:16:in `create'
+Started POST "/books" for 118.87.177.107 at 2021-04-08 07:34:25 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UAcdi2OdsqrVT-azzEhzopcMN4VdIU631BGWGq7xeA1IMQVGd8ccVGhUM-oBxgt6GglH9I5lTtJVU2SAoWvmrw", "title"=>"fsdf", "category"=>"fsdfsdf", "body"=>"sfsfsdf", "commit"=>"投稿"}
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `param' for #<BooksController:0x00007f9086396408>
+Did you mean?  params
+               params=
+               @_params):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:16:in `create'
+Started POST "/books" for 118.87.177.107 at 2021-04-08 07:34:46 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UAcdi2OdsqrVT-azzEhzopcMN4VdIU631BGWGq7xeA1IMQVGd8ccVGhUM-oBxgt6GglH9I5lTtJVU2SAoWvmrw", "title"=>"fsdf", "category"=>"fsdfsdf", "body"=>"sfsfsdf", "commit"=>"投稿"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `call' for #<ActionController::Parameters:0x00007f908540dbd0>):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:16:in `create'
+Started GET "/" for 118.87.177.107 at 2021-04-08 08:21:46 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 215ms (Views: 209.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 08:21:48 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 08:21:49 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 08:21:55 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyKcMCobi1aZX9WDd5PR3IpPcaZb6cq23RCQv_olYZIvFIT9PkElqCREANq6HakEB0oB14itytNcUmIl9b__MA", "title"=>"kllk;", "category"=>"k;k;", "body"=>"k;k;", "commit"=>"投稿"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:16:in `create'
+Started GET "/" for 118.87.177.107 at 2021-04-08 09:59:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 254ms (Views: 249.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 09:59:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 09:59:10 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 09:59:14 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PGj80CkT3eqdBEY75LDfp4Ylp-U4tzFYoKlIg9oSuN7lsWoJrp6-pp7ATLVK3cIipjf8V4QPnKoC2fmP12HmmA", "title"=>"情報システム", "category"=>"sdfsdf", "body"=>"fgxg", "commit"=>"投稿"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:13:in `create'
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:05:44 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ntHyj1uQnNLWLod1kgTgeJlaa9O7PvuUnNFWdHK57OSlNfQZcWfkmHJU4s4Bm71uCkJwxD6e0scCqOgFJgoFlg", "title"=>"情報システム", "category"=>"sdfsdf", "body"=>"fgxg", "commit"=>"投稿"}
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:13:in `create'
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:07:16 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ntHyj1uQnNLWLod1kgTgeJlaa9O7PvuUnNFWdHK57OSlNfQZcWfkmHJU4s4Bm71uCkJwxD6e0scCqOgFJgoFlg", "title"=>"情報システム", "category"=>"sdfsdf", "body"=>"fgxg", "commit"=>"投稿"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:13:in `create'
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:09:32 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ntHyj1uQnNLWLod1kgTgeJlaa9O7PvuUnNFWdHK57OSlNfQZcWfkmHJU4s4Bm71uCkJwxD6e0scCqOgFJgoFlg", "title"=>"情報システム", "category"=>"sdfsdf", "body"=>"fgxg", "commit"=>"投稿"}
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:23:in `book_params'
+app/controllers/books_controller.rb:13:in `create'
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:10:53 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ntHyj1uQnNLWLod1kgTgeJlaa9O7PvuUnNFWdHK57OSlNfQZcWfkmHJU4s4Bm71uCkJwxD6e0scCqOgFJgoFlg", "title"=>"情報システム", "category"=>"sdfsdf", "body"=>"fgxg", "commit"=>"投稿"}
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:24:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:11:01 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 245ms (Views: 227.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:11:06 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ENgvFA8JSPPQebw3Lf1xwbFJ_T2w5C2c1D-b5seSZT8rPCmCJf4wuXQD2Yy-YizXIlHmKjVEBM9KRiWXkyGMTQ", "book"=>{"title"=>"sdasda", "category"=>"dasdasd", "body"=>"hgjghj"}, "commit"=>"投稿"}
+Completed 500 Internal Server Error in 135ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `book' for #<BooksController:0x00007fa880028cf0>
+Did you mean?  @book):
+  
+app/controllers/books_controller.rb:15:in `create'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:12:22 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 21.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:12:25 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n_UFXpDYwd3K0S2p0fYMjeAeLQx8RM3D0FnPPFKmLfKkEQPIui-5l26rSBJCaVGbcwY2G_nk5JBOIHFNBhXEgA", "book"=>{"title"=>"fdsdf", "category"=>"df", "body"=>"dfs"}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+  [1m[36mBook Create (1.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "fdsdf"], ["category", "df"], ["body", "dfs"], ["created_at", "2021-04-08 10:12:25.753909"], ["updated_at", "2021-04-08 10:12:25.753909"]]
+  ↳ app/controllers/books_controller.rb:15
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 6.0ms)
+
+
+  
+NameError (undefined local variable or method `book' for #<BooksController:0x00007fa885785ed0>
+Did you mean?  @book):
+  
+app/controllers/books_controller.rb:16:in `create'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:13:03 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 89ms (Views: 75.4ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:13:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U9A6VzmZHKJ4kDeqGaNvqhvRfpAEhXgesDhjZnmk7BBoNDzBE25k6NzqUhGKPDK8iMllh4ElUU0uQd0XLRcFYg", "book"=>{"title"=>"fgdfg", "category"=>"dfgdfgdf", "body"=>"dfgdfg"}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+  [1m[36mBook Create (1.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "fgdfg"], ["category", "dfgdfgdf"], ["body", "dfgdfg"], ["created_at", "2021-04-08 10:13:07.652452"], ["updated_at", "2021-04-08 10:13:07.652452"]]
+  ↳ app/controllers/books_controller.rb:15
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books.2
+Completed 302 Found in 14ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/books.2" for 118.87.177.107 at 2021-04-08 10:13:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as 
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 53ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:16:23 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 25.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:16:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JeimERpjlOQaNyGJrRQwTZ7mL0WEenz83SjVqwqeidP8MTDIne73qBnzKwcDeS3IvvR09zjC0Q5_WGSnB-3XlQ", "book"=>{"title"=>"asas", "category"=>"sadasd", "body"=>"asdasd"}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+  [1m[36mBook Create (1.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "asas"], ["category", "sadasd"], ["body", "asdasd"], ["created_at", "2021-04-08 10:16:26.964957"], ["updated_at", "2021-04-08 10:16:26.964957"]]
+  ↳ app/controllers/books_controller.rb:15
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/3
+Completed 302 Found in 11ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/books/3" for 118.87.177.107 at 2021-04-08 10:16:27 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:22:28 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:23:40 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:24:59 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @s.each do |list| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= list.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb___3394978973644055125_70180846208860'
+Started GET "/" for 118.87.177.107 at 2021-04-08 10:27:12 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:27:15 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Book:0x00007fa8801f4480>):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @book.each do |list| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= list.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb___3394978973644055125_70180840460420'
+Started GET "/" for 118.87.177.107 at 2021-04-08 10:27:21 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:27:27 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |list| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= list.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb___3394978973644055125_70180882863940'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:28:11 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |list| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= list.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb___3394978973644055125_70180884437580'
+Started GET "/" for 118.87.177.107 at 2021-04-08 10:29:47 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:29:49 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |list| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= list.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb___3394978973644055125_70180842043680'
+Started GET "/" for 118.87.177.107 at 2021-04-08 10:31:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:31:27 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do || %>
+    5:   <p>タイトル</p>
+    6:   <span><%= list.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb___3394978973644055125_28856720'
+Started GET "/" for 118.87.177.107 at 2021-04-08 10:31:42 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:31:43 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:4: formal argument cannot be a constant
+'.freeze; @books.each do |Book| 
+                          ^~~~):
+  
+app/views/books/index.html.erb:4: formal argument cannot be a constant
+Started GET "/" for 118.87.177.107 at 2021-04-08 10:32:28 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:32:30 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |books| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= list.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb___3394978973644055125_70180884207700'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:32:50 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:4: formal argument cannot be an instance variable
+....freeze; @books.each do |@books| 
+...                         ^~~~~~):
+  
+app/views/books/index.html.erb:4: formal argument cannot be an instance variable
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:35:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:4: formal argument cannot be an instance variable
+....freeze; @books.each do |@books| 
+...                         ^~~~~~
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:4: formal argument cannot be an instance variable
+app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:35:29 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:4: formal argument cannot be a constant
+'.freeze; @books.each do |Book| 
+                          ^~~~
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:4: formal argument cannot be a constant
+app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:35:42 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:4: formal argument cannot be a constant
+'.freeze; @book.each do |Book| 
+                         ^~~~
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:4: formal argument cannot be a constant
+app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:36:44 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:4: formal argument cannot be a constant
+'.freeze; @book.each do |Book| 
+                         ^~~~
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:4: formal argument cannot be a constant
+app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:36:54 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:37:01 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"_HDYGq_43plX8L0ln7AVFtz4TgfK83wzZcb3mCocTdrHlN6MhQ-m0_OK2J4ML0gAT-BVEE9TVWD7v0npfq-kqA", "book"=>{"title"=>"sdasda", "category"=>"dasdasd", "body"=>"fdgdgdfgdfg"}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "sdasda"], ["category", "dasdasd"], ["body", "fdgdgdfgdfg"], ["created_at", "2021-04-08 10:37:01.782056"], ["updated_at", "2021-04-08 10:37:01.782056"]]
+  ↳ app/controllers/books_controller.rb:15
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/4
+Completed 302 Found in 10ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/books/4" for 118.87.177.107 at 2021-04-08 10:37:01 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:38:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:40:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 29ms (Views: 22.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 10:40:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xqhUCYjH-6rMW5jeCaXSObmgFwxZGeu2Q-gYFYmNeu0fccLQD0qY5s-fklCnyM-8mbJMvuWhRkThmKkZhP4kqw", "book"=>{"title"=>"dfgdf", "category"=>"dgdfgdfgd", "body"=>"dgdfg"}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+  [1m[36mBook Create (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "dfgdf"], ["category", "dgdfgdfgd"], ["body", "dgdfg"], ["created_at", "2021-04-08 10:40:13.085303"], ["updated_at", "2021-04-08 10:40:13.085303"]]
+  ↳ app/controllers/books_controller.rb:15
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:15
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/5
+Completed 302 Found in 11ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/books/5" for 118.87.177.107 at 2021-04-08 10:40:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:41:28 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.6ms)
+
+
+  
+NameError (uninitialized constant BooksController::List):
+  
+app/controllers/books_controller.rb:7:in `index'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:44:55 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered books/index.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_model' for #<Book::ActiveRecord_Relation:0x00007fa8855d7ac0>
+Did you mean?  to_xml):
+    4: 
+    5: <h1>新規投稿</h1>
+    6: <!-- form_with部分 -->
+    7: <%= form_with model:@book, local:true do |f| %>
+    8: 
+    9:   <h4>タイトル</h4>
+   10:   <%= f.text_field :title %>
+  
+app/views/books/index.html.erb:7:in `_app_views_books_index_html_erb___3394978973644055125_70180884358020'
+Started GET "/" for 118.87.177.107 at 2021-04-08 10:47:42 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 10:47:44 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:27: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 118.87.177.107 at 2021-04-08 11:00:52 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 249ms (Views: 244.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:00:56 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:26: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 118.87.177.107 at 2021-04-08 11:01:48 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:01:50 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:8: syntax error, unexpected '<', expecting end
+<h1>新規投稿</h1>
+^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:11: unknown regexp option - h
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:11: syntax error, unexpected tINTEGER, expecting end
+  <h4>タイトル</h4>
+                     ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:14: syntax error, unexpected '<', expecting end
+  <h4>カテゴリー</h4>
+  ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:17: unknown regexp option - h
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:17: syntax error, unexpected tINTEGER, expecting end
+  <h4>本文</h4>
+               ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+...uffer.append=( f.submit '投稿' );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:26: unterminated string meets end of file
+          end
+              ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:26: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:8: syntax error, unexpected '<', expecting end
+app/views/books/index.html.erb:11: unknown regexp option - h
+app/views/books/index.html.erb:11: syntax error, unexpected tINTEGER, expecting end
+app/views/books/index.html.erb:14: syntax error, unexpected '<', expecting end
+app/views/books/index.html.erb:17: unknown regexp option - h
+app/views/books/index.html.erb:17: syntax error, unexpected tINTEGER, expecting end
+app/views/books/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/books/index.html.erb:26: unterminated string meets end of file
+app/views/books/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 118.87.177.107 at 2021-04-08 11:02:11 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:02:15 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/index.html.erb:8: syntax error, unexpected '<', expecting end
+<h1>新規投稿</h1>
+^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:11: unknown regexp option - h
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:11: syntax error, unexpected tINTEGER, expecting end
+  <h4>タイトル</h4>
+                     ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:14: syntax error, unexpected '<', expecting end
+  <h4>カテゴリー</h4>
+  ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:17: unknown regexp option - h
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:17: syntax error, unexpected tINTEGER, expecting end
+  <h4>本文</h4>
+               ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+...uffer.append=( f.submit '投稿' );@output_buffer.safe_appen...
+...                         ^~~~~~
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:26: unterminated string meets end of file
+          end
+              ^
+/home/ec2-user/environment/bookers/app/views/books/index.html.erb:26: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/books/index.html.erb:8: syntax error, unexpected '<', expecting end
+app/views/books/index.html.erb:11: unknown regexp option - h
+app/views/books/index.html.erb:11: syntax error, unexpected tINTEGER, expecting end
+app/views/books/index.html.erb:14: syntax error, unexpected '<', expecting end
+app/views/books/index.html.erb:17: unknown regexp option - h
+app/views/books/index.html.erb:17: syntax error, unexpected tINTEGER, expecting end
+app/views/books/index.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/books/index.html.erb:26: unterminated string meets end of file
+app/views/books/index.html.erb:26: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 118.87.177.107 at 2021-04-08 11:02:46 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:02:48 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.0ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:04:11 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:05:55 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (uninitialized constant BooController):
+  
+activesupport (5.2.5) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.5) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.5) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.5) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.5) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.5) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.5) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.5) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.5) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.5) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.5) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.5) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.5) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.5) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.5) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:06:02 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 31ms (Views: 22.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:06:12 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 30ms (Views: 22.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:06:14 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 11:06:15 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:06:17 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:09:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |book| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= book.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb__3443450880370613992_69924267053640'
+Started GET "/" for 118.87.177.107 at 2021-04-08 11:09:30 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:09:31 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |book| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= book.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb__3443450880370613992_69924217221240'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:09:38 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 33ms (Views: 24.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:12:11 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 32ms (Views: 24.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:12:16 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:16:20 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |book| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= book.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb__3443450880370613992_40661020'
+Started GET "/" for 118.87.177.107 at 2021-04-08 11:16:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:16:27 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>Books#index</h1>
+    2: <p>Find me in app/views/books/index.html.erb</p>
+    3: <h1>投稿一覧</h1>
+    4: <% @books.each do |book| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= book.title %></span>
+    7: <% end %>
+  
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb__3443450880370613992_40507140'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:16:33 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 41ms (Views: 25.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:20:35 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:20:41 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 21.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:20:46 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (182.5ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `ture' for #<#<Class:0x00007f31059adc00>:0x00007f31006b67e0>
+Did you mean?  true):
+    1: <h1>編集画面</h1>
+    2: <%= form_with model:@book, url:"/books/#{@book.id}", local:ture do |f| %>
+    3: <h4>タイトル</h4>
+    4: <%= f.text_filed :title %>
+    5: <h4>本文</h4>
+  
+app/views/books/edit.html.erb:2:in `_app_views_books_edit_html_erb___3544588109367573843_69924218583080'
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:28:30 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (232.8ms)
+Completed 500 Internal Server Error in 242ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `ture' for #<#<Class:0x00007f31059adc00>:0x00007f3104c98740>
+Did you mean?  true):
+    1: <h1>編集画面</h1>
+    2: <%= form_with model:@book, local:ture do |f| %>
+    3: <h4>タイトル</h4>
+    4: <%= f.text_filed :title %>
+    5: <h4>本文</h4>
+  
+app/views/books/edit.html.erb:2:in `_app_views_books_edit_html_erb___3544588109367573843_69924255227040'
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:31:49 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (180.0ms)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `ture' for #<#<Class:0x00007f31059adc00>:0x00007f31060ba0c0>
+Did you mean?  true):
+    1: <h1>編集画面</h1>
+    2: <%= form_with model:@book, local:ture do |f| %>
+    3: <h4>タイトル</h4>
+    4: <%= f.text_field :title %>
+    5: <h4>カテゴリー</h4>
+  
+app/views/books/edit.html.erb:2:in `_app_views_books_edit_html_erb___3544588109367573843_69924265776260'
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:34:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 23.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:38:25 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (1.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 26.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:38:31 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 25.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:39:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:43:50 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:44:00 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:44:12 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (84.7ms)
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f31055b1a20>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924259993500'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:44:23 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (84.7ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f3104c5d708>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924255082740'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:44:30 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (84.5ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00000000046cc420>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_37123900'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:44:39 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/bookers/app/views/books/show.html.erb:5: `@)' is not allowed as an instance variable name
+/home/ec2-user/environment/bookers/app/views/books/show.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+...k_to "編集", edit_blog_path(@) );
+...                              ^):
+  
+app/views/books/show.html.erb:5: `@)' is not allowed as an instance variable name
+app/views/books/show.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:44:49 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (86.7ms)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f3100567fb0>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924217873440'
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:46:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/1" for 118.87.177.107 at 2021-04-08 11:46:10 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1VtqKYrgBd7drGkWjQaNMzgBHcmkAC7UqEnELePJ1Uzuv2y_oBd9lHnWDK0emdAlqxkG3iGgB4c2MHpct3o8Pg", "book"=>{"title"=>"fdsdf", "category"=>"df", "body"=>"dfssa"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+  [1m[36mBook Update (1.5ms)[0m  [1m[33mUPDATE "books" SET "body" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["body", "dfssa"], ["updated_at", "2021-04-08 11:46:10.617693"], ["id", 1]]
+  ↳ app/controllers/books_controller.rb:27
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/1
+Completed 302 Found in 15ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:46:10 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (93.6ms)
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f31005d5998>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924218122940'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 11:48:15 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:48:21 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (85.9ms)
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f31005c7140>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924218092780'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:49:45 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.9ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (87.1ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f31003c4e38>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book.id) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924217039700'
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 11:52:34 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/1" for 118.87.177.107 at 2021-04-08 11:53:12 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H9JPjoxEmIuQFmyU7bAQRDI540edkDU1G-MFp6FAo2AkNkkYprPgwTRsCS9-L01SoSH4UBgwHGaFmrvW9fNKEg", "book"=>{"title"=>"fdsdf", "category"=>"df", "body"=>"dfssa"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/1
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:53:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (81.5ms)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f3100424ba8>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924217235960'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:53:24 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (84.2ms)
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f310581c8c8>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "編集", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924261264240'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 11:56:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (81.3ms)
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x00007f310608fe88>:0x00007f3105436498>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__2202516620807098373_69924259216580'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:00:42 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (209.0ms)
+Completed 500 Internal Server Error in 235ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `book' for #<#<Class:0x0000000003f799e8>:0x0000000004106810>
+Did you mean?  @book):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_33433640'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:00:55 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (158.3ms)
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `book' for #<#<Class:0x0000000003f799e8>:0x00000000036cbaf8>
+Did you mean?  @book):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_28648740'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:01:10 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (205.3ms)
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `book' for #<#<Class:0x0000000003f799e8>:0x0000000006030470>
+Did you mean?  @book):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_50431580'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:01:21 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (148.5ms)
+Completed 500 Internal Server Error in 153ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `book' for #<#<Class:0x0000000003f799e8>:0x000000000368b7a0>
+Did you mean?  @book):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_31987100'
+Started GET "/" for 118.87.177.107 at 2021-04-08 12:01:30 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 209ms (Views: 208.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:01:32 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:01:35 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (99.6ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x0000000003f799e8>:0x000000000506fc98>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_45556380'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:01:51 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (88.3ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x0000000003f799e8>:0x0000000005a6b210>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(Book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_47406380'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:02:06 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (83.8ms)
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x0000000003f799e8>:0x00000000059796b8>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(@Book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_43674880'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:02:19 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (180.8ms)
+Completed 500 Internal Server Error in 185ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `books' for #<#<Class:0x0000000003f799e8>:0x000000000618ff50>
+Did you mean?  @book):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(books) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_53142500'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:02:34 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (121.2ms)
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x0000000003f799e8>:0x00007fe48678c680>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(@books) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_70309742667640'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:05:24 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (94.9ms)
+Completed 500 Internal Server Error in 98ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `edit_blog_path' for #<#<Class:0x0000000003f799e8>:0x00000000069b4b18>
+Did you mean?  edit_book_path):
+    2: <p><%= @book.title %></p>
+    3: <h2>本文</h2>
+    4: <p><%= @book.body %></p>
+    5: <%= link_to "edit", edit_blog_path(@book) %>
+  
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb___2892016489682251339_55421520'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:06:56 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 198ms (Views: 179.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 12:09:19 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/1" for 118.87.177.107 at 2021-04-08 12:09:22 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yURQXdi1gt0Itzk3I04jFjKG9Q9fsqsHU-O6jbP2dA0J8J_cpWI9xJ05NBO62kIcFMALH8twN2dcsSFOzhJR1A", "book"=>{"title"=>"fdsdf", "category"=>"df", "body"=>"df"}, "commit"=>"保存", "id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+  [1m[36mBook Update (0.5ms)[0m  [1m[33mUPDATE "books" SET "body" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["body", "df"], ["updated_at", "2021-04-08 12:09:22.490028"], ["id", 1]]
+  ↳ app/controllers/books_controller.rb:27
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/1
+Completed 302 Found in 11ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:09:22 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:15:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 18.7ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/books/1" for 118.87.177.107 at 2021-04-08 12:15:09 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"p4gQBnLQcojDB9UF8Gf_h_THm8UGvO-0RlK626xIFMGcbBaQWCcKwmd9sL5j-KKRZ9-A0oMcxufYKwSq-Pv9sw", "id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+  [1m[36mBook Destroy (0.5ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/books_controller.rb:33
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/1
+Completed 302 Found in 11ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:15:09 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:17:10 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"books", :id=>nil}, missing required keys: [:id]):
+    4: <% @books.each do |book| %>
+    5:   <p>タイトル</p>
+    6:   <span><%= book.title %></span>
+    7:   <%= link_to "delete", book_path(@book), method: :delete %>
+    8: <% end %>
+    9: <h1>新規投稿</h1>
+   10: <%= form_with model:@book, local:true do |f| %>
+  
+app/views/books/index.html.erb:7:in `block in _app_views_books_index_html_erb__4607642318490402413_69908615339240'
+app/views/books/index.html.erb:4:in `_app_views_books_index_html_erb__4607642318490402413_69908615339240'
+Started GET "/2" for 118.87.177.107 at 2021-04-08 12:19:03 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/2"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 118.87.177.107 at 2021-04-08 12:19:10 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 151ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:19:12 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 23ms (Views: 15.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:19:18 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 4ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/1/edit" for 118.87.177.107 at 2021-04-08 12:20:11 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/books_controller.rb:22:in `edit'
+Started GET "/" for 118.87.177.107 at 2021-04-08 12:21:57 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 237ms (Views: 231.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 12:21:59 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:22:01 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 38ms (Views: 27.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:22:05 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 4ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:22:45 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/" for 118.87.177.107 at 2021-04-08 12:23:23 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 12:26:57 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 247ms (Views: 242.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 12:26:59 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:27:01 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 45ms (Views: 35.7ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 12:27:06 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"_faqLWUO-QCTl6BEzLi_zWkoeErH9bWyyIoWdbohPnIkLzz04oOaTJBTqspi1aJISToj-HtNGEBq-qd5t1JgNA", "book"=>{"title"=>"asdasda", "category"=>"asdasd", "body"=>"adasdasdasdasd"}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:17
+  [1m[36mBook Create (1.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "asdasda"], ["category", "asdasd"], ["body", "adasdasdasdasd"], ["created_at", "2021-04-08 12:27:06.803250"], ["updated_at", "2021-04-08 12:27:06.803250"]]
+  ↳ app/controllers/books_controller.rb:17
+  [1m[35m (13.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:17
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/6
+Completed 302 Found in 22ms (ActiveRecord: 15.2ms)
+
+
+Started GET "/books/6" for 118.87.177.107 at 2021-04-08 12:27:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 29ms (Views: 25.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/6/edit" for 118.87.177.107 at 2021-04-08 12:27:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/6" for 118.87.177.107 at 2021-04-08 12:27:12 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fpFDkLkXso8jq2y__vdA_lJSwv3gN1bcyxH0anS5rzMF0uAbruK7bUlOO8opnpEAgoq6xtlRyQZtnhVmIxcOng", "book"=>{"title"=>"asdasda", "category"=>"asdasd", "body"=>"ada"}, "commit"=>"保存", "id"=>"6"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+  [1m[36mBook Update (0.5ms)[0m  [1m[33mUPDATE "books" SET "body" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["body", "ada"], ["updated_at", "2021-04-08 12:27:12.794498"], ["id", 6]]
+  ↳ app/controllers/books_controller.rb:27
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/6
+Completed 302 Found in 18ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/books/6" for 118.87.177.107 at 2021-04-08 12:27:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/1" for 118.87.177.107 at 2021-04-08 12:27:18 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=1):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/2" for 118.87.177.107 at 2021-04-08 12:27:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/2" for 118.87.177.107 at 2021-04-08 12:28:35 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/books/2" for 118.87.177.107 at 2021-04-08 12:28:36 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ouAdVQvIKHXkqEZv_hmTokCQYlBN44HrthxAr3pLPoiZBBvDIT9QP0DSI9Rths6004h5R8hDqLgoZf7eLvjX-g", "id"=>"2"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+  [1m[36mBook Destroy (1.1ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/books_controller.rb:33
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/2
+Completed 302 Found in 11ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/books/2" for 118.87.177.107 at 2021-04-08 12:28:36 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=2):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:33:04 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 209ms (Views: 192.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/books/3" for 118.87.177.107 at 2021-04-08 12:33:29 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/books.3" for 118.87.177.107 at 2021-04-08 12:33:31 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [DELETE] "/books.3"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/books/3/edit" for 118.87.177.107 at 2021-04-08 12:33:54 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/3" for 118.87.177.107 at 2021-04-08 12:33:56 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xvs_VtdQ6CBwJ1NBGhLJVvB5oYXYDhLMhbR0Qcyht5CSRuJEBBysbhUmriz-860G_EcWzwQgHxrSQNwT7yawng", "book"=>{"title"=>"asas", "category"=>"sadasd", "body"=>"asdasd"}, "commit"=>"保存", "id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/3
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books/3" for 118.87.177.107 at 2021-04-08 12:33:56 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/books.3" for 118.87.177.107 at 2021-04-08 12:33:58 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [DELETE] "/books.3"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/books.3" for 118.87.177.107 at 2021-04-08 12:34:44 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [DELETE] "/books.3"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/books.3" for 118.87.177.107 at 2021-04-08 12:34:47 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [DELETE] "/books.3"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/books/3" for 118.87.177.107 at 2021-04-08 12:34:49 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 11.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/books.3" for 118.87.177.107 at 2021-04-08 12:34:51 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [DELETE] "/books.3"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/books.3" for 118.87.177.107 at 2021-04-08 12:35:09 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [DELETE] "/books.3"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/books.3" for 118.87.177.107 at 2021-04-08 12:35:12 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [DELETE] "/books.3"):
+  
+actionpack (5.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:35:29 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/3" for 118.87.177.107 at 2021-04-08 12:35:33 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/books/3" for 118.87.177.107 at 2021-04-08 12:35:34 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lTphTqha7eqEb9jSy3Lojy9xgITc0mrsZwWKOOuyUOWu3mfYgq2VoCAVvWlY7bWZvGmbk1lyQ7_5fDRJvwG5lw", "id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+  [1m[36mBook Destroy (0.5ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/books_controller.rb:33
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books
+Completed 302 Found in 11ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:35:35 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/3" for 118.87.177.107 at 2021-04-08 12:35:41 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=3):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/4" for 118.87.177.107 at 2021-04-08 12:36:02 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/books/4" for 118.87.177.107 at 2021-04-08 12:36:04 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RZG2MYwET2t0f9NMJBxUXQu9B4dYYLU6JNDqZoRu45x-dbCnpvM3IdAFtve3gwlLmKUckN3AnGm6qVQX0N0K7g", "id"=>"4"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+  [1m[36mBook Destroy (0.4ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/books_controller.rb:33
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books
+Completed 302 Found in 11ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 12:36:04 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 13:21:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 118.87.177.107 at 2021-04-08 13:22:19 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#home as HTML
+  Rendering books/home.html.erb within layouts/application
+  Rendered books/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:24:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:24:29 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 37ms (Views: 13.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:24:37 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:4
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:25:05 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 13:27:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vsghsvsy7DhaKQPcdA_MIXiOfbs3oK6YJMFDLO5ZWAFtLCck0cWUcv5TZmfnkJE365ZmrLIAh8u6uP1duuqxcw", "book"=>{"title"=>"", "category"=>"", "body"=>""}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:17
+  [1m[36mBook Create (1.9ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", ""], ["category", ""], ["body", ""], ["created_at", "2021-04-08 13:27:08.456260"], ["updated_at", "2021-04-08 13:27:08.456260"]]
+  ↳ app/controllers/books_controller.rb:17
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:17
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/7
+Completed 302 Found in 12ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/books/7" for 118.87.177.107 at 2021-04-08 13:27:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/books/7" for 118.87.177.107 at 2021-04-08 13:27:10 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IE4cQlijQpSxWkTGnJGMhesoaBskqNiWS2HZ8kRWxYgbqhrUclQ63hUgIX0PDtGTeDBzDKEI8cXVGGeDEOUs-g", "id"=>"7"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+  [1m[36mBook Destroy (0.4ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/books_controller.rb:33
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:33
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books
+Completed 302 Found in 11ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:27:11 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:36:59 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:37:56 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:39:36 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:41:37 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:46:59 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:47:29 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 118.87.177.107 at 2021-04-08 13:48:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/books" for 118.87.177.107 at 2021-04-08 13:48:31 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A67og5gTeWk2i3ujRsAStTMzPohZsCtP4it1Kl3Q_Ag4Su4VsuQBI5LxHhjVX0-joCsln9wQAhx8UstbCWMVeg", "book"=>{"title"=>"タイトル", "category"=>"カテゴリー", "body"=>"ボディ"}, "commit"=>"投稿"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:17
+  [1m[36mBook Create (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "タイトル"], ["category", "カテゴリー"], ["body", "ボディ"], ["created_at", "2021-04-08 13:48:31.527800"], ["updated_at", "2021-04-08 13:48:31.527800"]]
+  ↳ app/controllers/books_controller.rb:17
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:17
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/8
+Completed 302 Found in 10ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/books/8" for 118.87.177.107 at 2021-04-08 13:48:31 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/8/edit" for 118.87.177.107 at 2021-04-08 13:48:35 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:22
+  Rendering books/edit.html.erb within layouts/application
+  Rendered books/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/8" for 118.87.177.107 at 2021-04-08 13:48:37 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aaPCCgBvGH9t58UvBYSot9nghVesRmnsSjUWCfSdOUNlq6GKMyeQFsbU5SUJF9uce_k9uw3QqwSu8WXgOPlDHQ", "book"=>{"title"=>"タイトル", "category"=>"カテゴリー", "body"=>"ボディ"}, "commit"=>"保存", "id"=>"8"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:27
+Redirected to https://d72fb798f3514f56bcc0ef71c0653928.vfs.cloud9.us-east-1.amazonaws.com/books/8
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/books/8" for 118.87.177.107 at 2021-04-08 13:48:37 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 13:49:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 13:50:19 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 13:51:07 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 13:53:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 13:53:14 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 13:53:15 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:2
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 13:58:36 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/3" for 118.87.177.107 at 2021-04-08 13:59:26 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=3):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/4" for 118.87.177.107 at 2021-04-08 13:59:30 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=4):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/5" for 118.87.177.107 at 2021-04-08 13:59:33 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 14:01:50 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.7ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/books/:id" for 118.87.177.107 at 2021-04-08 14:01:52 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>":id"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=:id):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 14:02:08 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/:id" for 118.87.177.107 at 2021-04-08 14:02:11 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>":id"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=:id):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 14:02:13 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 14:03:01 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/new" for 118.87.177.107 at 2021-04-08 14:03:02 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for 118.87.177.107 at 2021-04-08 14:03:42 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 14:03:43 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/[:id" for 118.87.177.107 at 2021-04-08 14:03:44 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"[:id"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=[:id):
+  
+app/controllers/books_controller.rb:3:in `show'
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 14:03:49 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/" for 118.87.177.107 at 2021-04-08 14:04:18 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:3
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/(params[:id])" for 118.87.177.107 at 2021-04-08 14:04:20 +0000
+Cannot render console from 118.87.177.107! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"(params[:id])"}
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/books_controller.rb:3
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Book with 'id'=(params[:id])):
+  
+app/controllers/books_controller.rb:3:in `show'
