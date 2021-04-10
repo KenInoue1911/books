@@ -1,6 +1,18 @@
-<h2>タイトル</h2>
-<p><%= @book.title %></p>
-<h2>本文</h2>
-<p><%= @book.body %></p>
-<%= link_to "edit", edit_book_path(@book) %>
-<%= link_to "delete", book_path(@book), method: :delete %>
+<table>
+ <thead>
+   <tr>
+    <td><h4><span style="margin-left:50px">Title :</span></h4></td>
+    <td><%= @book.title %></td>
+   </tr>
+ </thead>
+ <tbody>
+     <tr>
+     <td><h4><span style="margin-left:45px">Body :</span></h4></td>
+     <td><%= @book.body %></td>
+     </tr>
+   </tbody>
+
+<th><%= link_to "edit", edit_book_path(@book) %></th>
+<th><span style="margin-right:30px">|</span></th>
+<th><a href="/books">    back</a></th>
+</table>

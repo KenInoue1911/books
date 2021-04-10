@@ -1,10 +1,17 @@
-<h1>編集画面</h1>
+<h2><span style="margin-left:30px">Editing book</span></h2>
 <%= form_with model:@book, local: true do |f| %>
-<h4>タイトル</h4>
-<%= f.text_field :title %>
-<h4>カテゴリー</h4>
-<%= f.text_field :category %>
-<h4>本文</h4>
-<%= f.text_area :body %>
-<%= f.submit '保存' %>
+
+<h4><span style="margin-left:30px">Title</span></h4>
+ <span style="margin-left:30px"><%= f.text_field :title %></span>
+
+<h4><span style="margin-left:30px">Body</span></h4>
+ <span style="margin-left:30px"><%= f.text_area :body %></span>
+
+<p><span style="margin-left:30px"><%= f.submit 'Update book' %></span></p>
+<table>
+ <th><span style="margin-left:30px"><a href="/books">show</a></span</th>
+ <th>|</th>
+ <th><a href="/books">back</a></th>
+</table>
+
 <% end %>
