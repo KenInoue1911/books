@@ -1,15 +1,21 @@
 <h2><span style="margin-left:30px">Editing book</span></h2>
+<% if @book.errors.any? %>
+    <h3><span style="margin-left:30px"><%= @book.errors.count %> errors prohibited this book from being saved</span></h3> 
+    <p><span style="margin-left:30px"><% @book.errors.full_messages.each do |message| %></span</p>
+    <span style="margin-left:30px"><%= message %></span>
+  <% end %>
+  <% end %>
 <%= form_with model:@book, local: true do |f| %>
 
 <h4><span style="margin-left:30px">Title</span></h4>
  <span style="margin-left:30px"><%= f.text_field :title %></span>
-
+ 
 <h4><span style="margin-left:30px">Body</span></h4>
  <span style="margin-left:30px"><%= f.text_area :body %></span>
-
+ 
 <p><span style="margin-left:30px"><%= f.submit 'Update book' %></span></p>
 <table>
- <th><span style="margin-left:30px"><a href="/books">show</a></span</th>
+ <th><span style="margin-left:30px"><%= link_to "Show", book_path(@book) %></span></th>
  <th>|</th>
  <th><a href="/books">back</a></th>
 </table>

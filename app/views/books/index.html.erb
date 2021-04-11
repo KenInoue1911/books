@@ -1,3 +1,8 @@
+<% if flash[:notice1] %>
+    <p id="notice1">
+       <%= flash[:notice1] %>
+     </p>
+<% end %>
 <body>
   <h2><span style="margin-left:30px">Books</span></h2>
   <table>
@@ -12,19 +17,24 @@
      <tr>
       <td><span style="margin-left:30px"><%= book.title %></span></td>
       <td><span style="margin-left:30px"><%= book.body %></span></td>
-      <td><span style="margin-left:30px"><a href="/books">Show</a></span></td>
-      <td><span style="margin-left:10px"><a href="/books">Edit</a></span></td>
-      <td><span style="margin-left:10px"><a href="/books">Destroy</a></span></td>
+      <td><span style="margin-left:30px"><%= link_to "Show", book_path(book) %></span></td>
+      <td><span style="margin-left:10px"><%= link_to "Edit", edit_book_path(book) %></span></td>
+      <td><span style="margin-left:10px"><%= link_to "Delete", book_path(book), method: :delete, data: {confirm: 'Are you sure?'} %></span></td>
      </tr>
      <% end %>
     </tbody>
-
   </table>
 
-<h2><span style="margin-left:30px">New books</span></h2>
- <span style="margin-left:30px"><%= form_with model:@book, local:true do |f| %></span>
+    <h2><span style="margin-left:30px">New books</span></h2>
+    <span style="margin-left:30px"><%= form_with model:@book, local:true do |f| %></span>
+    <% if @book.errors.any? %>
+    <h3><span style="margin-left:30px"><%= @book.errors.count %> errors prohibited this book from being saved</span></h3> 
+    <p><% @book.errors.full_messages.each do |message| %></p>
+    <span style="margin-left:30px"><%= message %></span>
+   <% end %>
+  <% end %>
 
-  <p><span style="margin-left:30px">Title</span></p>
+   <p><span style="margin-left:30px">Title</span></p>
    <span style="margin-left:30px"><%= f.text_field :title %></span>
 
 
